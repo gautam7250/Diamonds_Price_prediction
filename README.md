@@ -12,16 +12,16 @@ very important to be able to predict the price the market will pay for diamonds 
 They have been able to get a dataset (this is actually real-world data) containing the prices
 and key characteristics of about 54,000 diamonds; here we have the metadata about the
 ### dataset:
-* Number of attributes: 10\
-Feature information: A DataFrame with 53,940 rows and 10 variables:\
-price: Price in US dollars\
-carat: Weight of the diamond\
-cut: Quality of the cut (fair, good, very good, premium, ideal)\
-color: Diamond color, from J (worst) to D (best)\
-clarity: A measurement of how clear the diamond is (I1 (worst), SI2, SI1, VS2,\
+* Number of attributes: 10
+> * Feature information: A DataFrame with 53,940 rows and 10 variables:\
+> * price: Price in US dollars\
+> * carat: Weight of the diamond\
+> * cut: Quality of the cut (fair, good, very good, premium, ideal)\
+> * color: Diamond color, from J (worst) to D (best)\
+> * clarity: A measurement of how clear the diamond is (I1 (worst), SI2, SI1, VS2,\
 VS1, VVS2, VVS1, IF (best))\
-x: Length in mm\
-y: Width in mm\
-z: Depth in mm\
-depth: Total depth percentage = z / mean(x, y) = 2 * z / (x + y)\
-table: Width of the top of the diamond relative to the widest point
+> * x: Length in mm\
+> * y: Width in mm\
+> * z: Depth in mm\
+> * depth: Total depth percentage = z / mean(x, y) = 2 * z / (x + y)\
+> * table: Width of the top of the diamond relative to the widest point
